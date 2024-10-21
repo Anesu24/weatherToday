@@ -1,0 +1,19 @@
+body {
+    
+background-color: #f5f5f5;
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+.app  {
+    background: #fff;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: #2c2828;
+    padding: 30px;
+    border-radius: 30px;
+
+}
