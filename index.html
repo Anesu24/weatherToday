@@ -12,24 +12,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
 <body>
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city" required>
-            <input type="submit" value="search">
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city" required class="search-form-input">
+            <input type="submit" value="search" class="search-form-button">
         </form>
     </header>
    <main> 
-    <h1>Harare</h1>
-
+    <h1 class="weather-app-city">Harare</h1>
+    <div class="weather-app-data">
 <div>
-    <p>
+    <p class="weather-app-details">
         tuesday 13:24, scattered clouds
 <br>
-        humidity 64% Wind 5.2km/hr
+        humidity <strong>64%</strong> Wind <strong>5.2km/hr</strong>
     </p>
-    </div>
-  <div>  ☀️24°C </div>
-
-           
+</div>
+<div class="weather-app-temperature-container">
+  <div class="weather-app-icon"> ☀️</div> 
+  <div class="weather-app-temperature"> 24</div>
+  <div class="weather-app-unit">°C</div>
+</div>    
 </main> 
     <footer>
     
