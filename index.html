@@ -3,47 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css" />
-   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-   <div class="app">
     <title>Weather Today</title>
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+
 <body>
     <header>
-        <form class="search-form" id="search-form">
+        <form>
+            <input type="search" placeholder="enter a city" required/>
+            <input type="submit" value="search"/>
 
-            <input type="search" placeholder="Enter a city" required class="search-form-input" id="search-form-input">
-            <input type="submit" value="search" class="search-form-button">
         </form>
     </header>
-   <main> 
-    <h1 class="weather-app-city" id="city">Harare</h1>
-    <div class="weather-app-data">
-<div>
-    <p class="weather-app-details">
-        tuesday 13:24, scattered clouds
-<br>
-        humidity <strong>64%</strong> Wind <strong>5.2km/hr</strong>
-    </p>
-</div>
-<div class="weather-app-temperature-container">
-  <div class="weather-app-icon"> ☀️</div> 
-  <div class="weather-app-temperature"> 24</div>
-  <div class="weather-app-unit">°C</div>
-</div>    
-</main> 
-    <footer>
-    
-            This project was coded by
-            <a href="https://github.com/Anesu24" target="_blank">Anesu Chifamba</a> and is
-            <a href="https://github.com/Anesu24/my-awesome-project" target="_blank"> on GitHub</a> and
-            <a href="https://sueweathertoday.netlify.app/" target="_blank">hosted on Netlify</a>
+        <main>
+            <h1>Harare</h1>
+            <p>
+                tuesday 14:49, scattered clouds
+                <br />
+                humidity: 66%,Wind 3.13km/hr
+            </p>
+        </div>
+        <div class="current-temperature">
+          <span class="current-temperature-icon">☀️</span
+          ><span class="current-temperature-value" id="current-temperature"
+            >24</span
+          ><span class="current-temperature-unit">°C</span>
+        </div>
+        </main>
 
-    </footer>
-    </div>
-    <script src="src/index.js"></script>
+   
+    <footer>
+        <p>
+            <p>
+                This project was coded by
+                <a href="https://github.com/Anesu24" target="_blank">Anesu Chifamba</a> and is
+                <a href="https://github.com/Anesu24/my-awesome-project" target="_blank"> on GitHub</a> and
+                <a href="https://sueweathertoday.netlify.app/" target="_blank">hosted on Netlify</a>
+              </p>
+        </p></footer>
 </body>
 </html>
